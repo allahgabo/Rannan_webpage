@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    
+    <!-- Google Fonts -->	
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    
+    <!-- Bootstrap Stylesheet -->	
+            <link rel="stylesheet" href="css/bootstrap-4.4.1.min.css">
+    
+
+    <!-- Sidebar Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+    
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+    <!-- Custom Stylesheets -->	
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" id="cpswitch" href="css/orange.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Owl Carousel Stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    
+    <!-- Flex Slider Stylesheet -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+    
+    <!--Date-Picker Stylesheet-->
+    <link rel="stylesheet" href="css/datepicker.css">
+    
+    <!-- Magnific Gallery -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+</head>
+
+
+<body id="main-homepage">
+
+    <div class="wrapper">
+        <!--====== LOADER =====-->
+        <div class="loader"></div>
+            
+            
+        <!--======== SEARCH-OVERLAY =========-->       
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" onClick="closeSearch()" title="Close Overlay">×</span>
+            <div class="overlay-content">
+                
+                    <form>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input class="float-left" type="text" placeholder="Search.." name="search">
+                                <button class="float-left" type="submit"><i class="fa fa-search"></i></button>
+                            </div><!-- end input-group -->
+                        </div><!-- end form-group -->
+                    </form>
+                
+            </div><!-- end overlay-content -->
+        </div><!-- end overlay -->
+        
+        
+        <!--============= TOP-BAR ===========-->
+        <div id="top-bar" class="tb-text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div id="info">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>29 Jedda St, Lorem City, SA</li>
+                                <li class="list-inline-item"><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                            </ul>
+                        </div><!-- end info -->
+                    </div><!-- end columns -->
+                    <div class="col-12 col-md-6">
+                        <div id="links">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><a href="login.html"><span><i class="fa fa-lock"></i></span>Login</a></li>
+                                <li class="list-inline-item"><a href="registration"><span><i class="fa fa-plus"></i></span>Sign Up</a></li>
+                                <li class="list-inline-item">
+                                    <form>
+                                        <ul class="list-inline">
+                                            
+                                            <li class="list-inline-item">
+                                                <div class="form-group language">
+                                                    <span><i class="fa fa-angle-down"></i></span>
+                                                    <select class="form-control">
+                                                        <option value="">EN</option>
+                                                        <option value="">AR</option>
+                                                        
+                                                    </select>
+                                                </div><!-- end form-group -->
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div><!-- end links -->
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end top-bar -->
+        
+        <nav class="navbar navbar-expand-xl sticky-top navbar-custom main-navbar p-1" id="mynavbar-1">
+            <div class="container">
+        
+                <a href="#" class="navbar-brand py-1 m-0"><img class="img-fluid Up hidden-port visible animated fadeInUp" src="https://rannans.com/pub/assets/images/logo.png"></a>
+                <div class="header-search d-xl-none my-auto ml-auto py-1">
+                    <a href="#" class="search-button" onClick="openSearch()"><span><i class="fa fa-search"></i></span></a>
+                </div>
+                <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="sidebarCollapse">
+                    <i class="fa fa-navicon py-1"></i>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="myNavbar1">
+                    <ul class="navbar-nav ml-auto navbar-search-link">
+                        <li class="nav-item dropdown active">
+                            <a href="index.html" class="nav-link" >Home<span><i class=></i></span></a>
+                           
+                        </li>
+                        <!--ABOUT US -->
+                        <li class="nav-item dropdown ">
+                            <a href="about.html" class="nav-link" >ABOUT </a>
+                           
+                        </li>
+
+                        <!--SERVICES -->
+                        <li class="nav-item dropdown ">
+                            <a href="services.html" class="nav-link" >SERVICES </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+                                <li><a class="dropdown-item" href="resort.html">Resort</a></li>
+                                <li><a class="dropdown-item" href="weddingh.html">Wedding hall</a></li>
+                                <li><a class="dropdown-item" href="playground.html">Playground</a></li>
+                                <li><a class="dropdown-item" href="teacoffee.html">Tea & Coffee</a></li>
+                                <li><a class="dropdown-item" href="weddingd.html">Wedding Dress</a></li>
+                                <li><a class="dropdown-item" href="henna.html">Henna</a></li>
+                                <li><a class="dropdown-item" href="photography.html">Photography</a></li>
+                                <li><a class="dropdown-item" href="flower.html">Flower Arrangement</a></li>
+                                <li><a class="dropdown-item" href="hair.html">Hair & Makeup</a></li>
+                                <li><a class="dropdown-item" href="cultural.html">Cultural Bands</a></li>
+                                <li><a class="dropdown-item" href="camp.html">Camp, Tents & rentals</a></li>
+                                <li><a class="dropdown-item" href="catering.html">Catering</a></li>
+                            </ul>
+                        </li>
+
+                        <!--OFFERS-->
+
+                        <li class="nav-item dropdown ">
+                            <a href="offers.html" class="nav-link" >OFFERS </a>
+                            
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a href="contact.html" class="nav-link" >Contact</span></a>
+                           
+                        </li>
+                        
+                       
+                        
+                        
+                        
+                        <li class="dropdown-item search-btn">
+                            <a href="#" class="search-button" onClick="openSearch()"><span><i class="fa fa-search"></i></span></a>
+                        </li>
+                    </ul>
+                </div><!-- end navbar collapse -->
+            </div><!-- End container -->
+        </nav>
+       
+        <!--====END OF NAVBAR =====-->
+    
+    
+    <!--================= PAGE-COVER =================-->
+    <section class="page-cover" id="cover-car-grid-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="services.html">service</a></li>
+                        <li class="breadcrumb-item">resorts</li>
+                    </ul>
+                </div><!-- end columns -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section><!-- end page-cover -->
+    
+    
+    <!--==== INNERPAGE-WRAPPER =====-->
+    <section class="innerpage-wrapper">
+        <div id="car-listing" class="innerpage-section-padding">
+            <div class="container">
+                <div class="row">            
+                    
+                    <div class="col-12 col-md-12 col-lg-3 side-bar left-side-bar">
+                                    
+                        <div class="side-bar-block filter-block">
+                            <h3>Sort By Filter</h3>
+                            <p>Find your dream flights today</p>
+                            
+                            <div class="panels-group">
+                                
+                                <div class="card">
+                                    <div class="card-header">                    
+                                        <a href="#panel-1" data-toggle="collapse" >Select Category <span><i class="fa fa-angle-down"></i></span></a>
+                                    </div><!-- end card-header -->
+                                    
+                                    <div id="panel-1" class="panel-collapse collapse">
+                                        <div class="card-body text-left">
+                                            <ul class="list-unstyled">
+                                                <li class="custom-check"><input type="checkbox" id="check01" name="checkbox"/>
+                                                <label for="check01"><span><i class="fa fa-check"></i></span>All</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check02" name="checkbox"/>
+                                                <label for="check02"><span><i class="fa fa-check"></i></span>Compact</label></li>    
+                                                <li class="custom-check"><input type="checkbox" id="check03" name="checkbox"/>
+                                                <label for="check03"><span><i class="fa fa-check"></i></span>Economy</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check04" name="checkbox"/>
+                                                <label for="check04"><span><i class="fa fa-check"></i></span>Full Size</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check05" name="checkbox"/>
+                                                <label for="check05"><span><i class="fa fa-check"></i></span>Luxury</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check06" name="checkbox"/>
+                                                <label for="check06"><span><i class="fa fa-check"></i></span>Mini Car</label></li>    
+                                                <li class="custom-check"><input type="checkbox" id="check07" name="checkbox"/>
+                                                <label for="check07"><span><i class="fa fa-check"></i></span>Special</label></li>                
+                                                <li class="custom-check"><input type="checkbox" id="check08" name="checkbox"/>
+                                                <label for="check08"><span><i class="fa fa-check"></i></span>Van</label></li>
+                                            </ul>
+                                        </div><!-- end card-body -->
+                                    </div><!-- end panel-collapse -->
+                                </div><!-- end panel-default -->
+                                
+                                <div class="card">
+                                    <div class="card-header">                    
+                                        <a href="#panel-2" data-toggle="collapse" >Facility <span><i class="fa fa-angle-down"></i></span></a>
+                                    </div><!-- end card-header -->
+                                    
+                                    <div id="panel-2" class="panel-collapse collapse">
+                                        <div class="card-body text-left">
+                                            <ul class="list-unstyled">
+                                                <li class="custom-check"><input type="checkbox" id="check09" name="checkbox"/>
+                                                <label for="check09"><span><i class="fa fa-check"></i></span>Air Conditioning</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check10" name="checkbox"/>
+                                                <label for="check10"><span><i class="fa fa-check"></i></span>Doors</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check11" name="checkbox"/>
+                                                <label for="check11"><span><i class="fa fa-check"></i></span>Pessanger Quantity</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check12" name="checkbox"/>
+                                                <label for="check12"><span><i class="fa fa-check"></i></span>Navigation</label></li>
+                                            </ul>
+                                        </div><!-- end card-body -->
+                                    </div><!-- end panel-collapse -->
+                                </div><!-- end panel-default -->
+                                
+                                <div class="card">
+                                    <div class="card-header">                    
+                                        <a href="#panel-3" data-toggle="collapse" >Rating <span><i class="fa fa-angle-down"></i></span></a>
+                                    </div><!-- end card-header -->
+                                    
+                                    <div id="panel-3" class="panel-collapse collapse">
+                                        <div class="card-body text-left">
+                                            <ul class="list-unstyled">
+                                                <li class="custom-check"><input type="checkbox" id="check13" name="checkbox"/>
+                                                <label for="check13"><span><i class="fa fa-check"></i></span>1 Star</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check14" name="checkbox"/>
+                                                <label for="check14"><span><i class="fa fa-check"></i></span>2 Star</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check15" name="checkbox"/>
+                                                <label for="check15"><span><i class="fa fa-check"></i></span>3 Star</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check16" name="checkbox"/>
+                                                <label for="check16"><span><i class="fa fa-check"></i></span>4 Star</label></li>
+                                                <li class="custom-check"><input type="checkbox" id="check17" name="checkbox"/>
+                                                <label for="check17"><span><i class="fa fa-check"></i></span>5 Star</label></li>
+                                            </ul>
+                                        </div><!-- end card-body -->
+                                    </div><!-- end panel-collapse -->
+                                </div><!-- end panel-default -->
+                                
+                            </div><!-- end panel-group -->
+                            
+                            <div class="price-slider">
+                                <p><input type="text" id="amount" readonly></p>
+                                <div id="slider-range"></div>
+                            </div><!-- end price-slider -->
+                        </div><!-- end side-bar-block -->
+                        
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-12">
+                                <div class="side-bar-block main-block ad-block">
+                                    <div class="main-img ad-img">
+                                        <a href="#">
+                                            <img src="images/car-ad.jpg" class="img-fluid" alt="car-ad" />
+                                            <div class="ad-mask">
+                                                <div class="ad-text">
+                                                    <span>Luxury</span>
+                                                    <h2>Car</h2>
+                                                    <span>Offer</span>
+                                                </div><!-- end ad-text -->
+                                            </div><!-- end columns -->
+                                        </a>
+                                    </div><!-- end ad-img -->
+                                </div><!-- end side-bar-block -->
+                            </div><!-- end columns -->
+                            
+                            <div class="col-12 col-md-6 col-lg-12">    
+                                <div class="side-bar-block support-block">
+                                    <h3>Need Help</h3>
+                                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum.</p>
+                                    <div class="support-contact">
+                                        <span><i class="fa fa-phone"></i></span>
+                                        <p>+1 123 1234567</p>
+                                    </div><!-- end support-contact -->
+                                </div><!-- end side-bar-block -->
+                            </div><!-- end columns -->
+                            
+                        </div><!-- end row -->
+                    </div><!-- end columns -->
+                    
+                    <div class="col-12 col-md-12 col-lg-9 col-xl-9 content-side">
+    
+                        <div class="list-block main-block cr-list-block">
+                            <div class="list-content">
+                                <div class="main-img list-img cr-list-img">
+                                    <a href="car-detail-left-sidebar.html">
+                                        <img src="images/resort3.jpg" class="img-fluid" alt="car-img" />
+                                    </a>
+                                    <div class="main-mask">
+                                        <ul class="list-unstyled list-inline offer-price-1">
+                                            <li class="price list-inline-item">$1250.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                            <li class="rating list-inline-item">
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star lightgrey"></i></span>
+                                            </li>
+                                        </ul>
+                                    </div><!-- end main-mask -->
+                                </div><!-- end cr-list-img -->
+                                
+                                <div class="list-info cr-list-info">
+                                    <h3 class="block-title"><a href="#">Resort</a></h3>
+                                    <p class="block-minor">city</p>
+                                    <!-- <ul class="list-unstyled list-inline car-features">
+                                            <li class="list-inline-item"><span><i class="fa fa-user"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-briefcase"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>Gps</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tint"></i></span>Fuel</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-music"></i></span>Music</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tv"></i></span>TV</li>
+                                        </ul> -->
+                                    <a href="#" class="btn btn-orange btn-lg">View More</a>
+                                 </div><!-- end crs-list-info -->
+                            </div><!-- end list-content -->
+                        </div><!-- end cr-list-block -->
+                        
+                        <div class="list-block main-block cr-list-block">
+                            <div class="list-content">
+                                <div class="main-img list-img cr-list-img">
+                                    <a href="car-detail-left-sidebar.html">
+                                        <img src="images/resort3.jpg" class="img-fluid" alt="car-img" />
+                                    </a>
+                                    <div class="main-mask">
+                                        <ul class="list-unstyled list-inline offer-price-1">
+                                            <li class="price list-inline-item">$1250.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                            <li class="rating list-inline-item">
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star lightgrey"></i></span>
+                                            </li>
+                                        </ul>
+                                    </div><!-- end main-mask -->
+                                </div><!-- end cr-list-img -->
+                                
+                                <div class="list-info cr-list-info">
+                                    <h3 class="block-title"><a href="#">Resort</a></h3>
+                                    <p class="block-minor">city</p>
+                                    <!-- <ul class="list-unstyled list-inline car-features">
+                                            <li class="list-inline-item"><span><i class="fa fa-user"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-briefcase"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>Gps</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tint"></i></span>Fuel</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-music"></i></span>Music</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tv"></i></span>TV</li>
+                                        </ul> -->
+                                    <a href="#" class="btn btn-orange btn-lg">View More</a>
+                                 </div><!-- end crs-list-info -->
+                            </div><!-- end list-content -->
+                        </div><!-- end cr-list-block -->
+                        
+                        <div class="list-block main-block cr-list-block">
+                            <div class="list-content">
+                                <div class="main-img list-img cr-list-img">
+                                    <a href="car-detail-left-sidebar.html">
+                                        <img src="images/resort3.jpg" class="img-fluid" alt="car-img" />
+                                    </a>
+                                    <div class="main-mask">
+                                        <ul class="list-unstyled list-inline offer-price-1">
+                                            <li class="price list-inline-item">$1250.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                            <li class="rating list-inline-item">
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star lightgrey"></i></span>
+                                            </li>
+                                        </ul>
+                                    </div><!-- end main-mask -->
+                                </div><!-- end cr-list-img -->
+                                
+                                <div class="list-info cr-list-info">
+                                    <h3 class="block-title"><a href="#">Resort</a></h3>
+                                    <p class="block-minor">city</p>
+                                    <!-- <ul class="list-unstyled list-inline car-features">
+                                            <li class="list-inline-item"><span><i class="fa fa-user"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-briefcase"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>Gps</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tint"></i></span>Fuel</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-music"></i></span>Music</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tv"></i></span>TV</li>
+                                        </ul> -->
+                                    <a href="#" class="btn btn-orange btn-lg">View More</a>
+                                 </div><!-- end crs-list-info -->
+                            </div><!-- end list-content -->
+                        </div><!-- end cr-list-block -->
+                        
+                        <div class="list-block main-block cr-list-block">
+                            <div class="list-content">
+                                <div class="main-img list-img cr-list-img">
+                                    <a href="car-detail-left-sidebar.html">
+                                        <img src="images/resort3.jpg" class="img-fluid" alt="car-img" />
+                                    </a>
+                                    <div class="main-mask">
+                                        <ul class="list-unstyled list-inline offer-price-1">
+                                            <li class="price list-inline-item">$1250.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                            <li class="rating list-inline-item">
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star lightgrey"></i></span>
+                                            </li>
+                                        </ul>
+                                    </div><!-- end main-mask -->
+                                </div><!-- end cr-list-img -->
+                                
+                                <div class="list-info cr-list-info">
+                                    <h3 class="block-title"><a href="#">Resort</a></h3>
+                                    <p class="block-minor">city</p>
+                                    <!-- <ul class="list-unstyled list-inline car-features">
+                                            <li class="list-inline-item"><span><i class="fa fa-user"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-briefcase"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>Gps</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tint"></i></span>Fuel</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-music"></i></span>Music</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tv"></i></span>TV</li>
+                                        </ul> -->
+                                    <a href="#" class="btn btn-orange btn-lg">View More</a>
+                                 </div><!-- end crs-list-info -->
+                            </div><!-- end list-content -->
+                        </div><!-- end cr-list-block -->
+                        
+                        <div class="list-block main-block cr-list-block">
+                            <div class="list-content">
+                                <div class="main-img list-img cr-list-img">
+                                    <a href="car-detail-left-sidebar.html">
+                                        <img src="images/resort3.jpg" class="img-fluid" alt="car-img" />
+                                    </a>
+                                    <div class="main-mask">
+                                        <ul class="list-unstyled list-inline offer-price-1">
+                                            <li class="price list-inline-item">$1250.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                            <li class="rating list-inline-item">
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star lightgrey"></i></span>
+                                            </li>
+                                        </ul>
+                                    </div><!-- end main-mask -->
+                                </div><!-- end cr-list-img -->
+                                
+                                <div class="list-info cr-list-info">
+                                    <h3 class="block-title"><a href="#">Resort</a></h3>
+                                    <p class="block-minor">city</p>
+                                    <!-- <ul class="list-unstyled list-inline car-features">
+                                            <li class="list-inline-item"><span><i class="fa fa-user"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-briefcase"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>Gps</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tint"></i></span>Fuel</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-music"></i></span>Music</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tv"></i></span>TV</li>
+                                        </ul> -->
+                                    <a href="#" class="btn btn-orange btn-lg">View More</a>
+                                 </div><!-- end crs-list-info -->
+                            </div><!-- end list-content -->
+                        </div><!-- end cr-list-block -->
+                        
+                        <div class="list-block main-block cr-list-block">
+                            <div class="list-content">
+                                <div class="main-img list-img cr-list-img">
+                                    <a href="car-detail-left-sidebar.html">
+                                        <img src="images/resort3.jpg" class="img-fluid" alt="car-img" />
+                                    </a>
+                                    <div class="main-mask">
+                                        <ul class="list-unstyled list-inline offer-price-1">
+                                            <li class="price list-inline-item">$1250.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                            <li class="rating list-inline-item">
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star orange"></i></span>
+                                                <span><i class="fa fa-star lightgrey"></i></span>
+                                            </li>
+                                        </ul>
+                                    </div><!-- end main-mask -->
+                                </div><!-- end cr-list-img -->
+                                
+                                <div class="list-info cr-list-info">
+                                    <h3 class="block-title"><a href="#">Resort</a></h3>
+                                    <p class="block-minor">city</p>
+                                    <!-- <ul class="list-unstyled list-inline car-features">
+                                            <li class="list-inline-item"><span><i class="fa fa-user"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-briefcase"></i></span>04</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>Gps</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tint"></i></span>Fuel</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-music"></i></span>Music</li>
+                                            <li class="list-inline-item"><span><i class="fa fa-tv"></i></span>TV</li>
+                                        </ul> -->
+                                    <a href="#" class="btn btn-orange btn-lg">View More</a>
+                                 </div><!-- end crs-list-info -->
+                            </div><!-- end list-content -->
+                        </div><!-- end cr-list-block -->
+                        
+                        <!-- <div class="pages">
+                            <ol class="pagination justify-content-center">
+                                <li><a href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+                            </ol>
+                        </div>end pages -->
+    
+                    </div><!-- end columns -->
+     
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end car-listing -->
+    </section><!-- end innerpage-wrapper -->
+    
+    
+     
+        <!--======================= BEST FEATURES =====================-->
+        <section id="best-features" class="banner-padding black-features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="b-feature-block">
+                            <span><i class="fa fa-dollar"></i></span>
+                            <h3>Best Price Guarantee</h3>
+                            <!-- <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p> -->
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                   
+                   <div class="col-md-6 col-lg-3">
+                        <div class="b-feature-block">
+                            <span><i class="fa fa-lock"></i></span>
+                            <h3>Safe and Secure</h3>
+                             <!-- <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p> -->
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                   
+                   <div class="col-md-6 col-lg-3">
+                        <div class="b-feature-block">
+                            <span><i class="fa fa-thumbs-up"></i></span>
+                            <h3>Best Event Site</h3>
+                              <!-- <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p> -->
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                   
+                   <div class="col-md-6 col-lg-3">
+                        <div class="b-feature-block">
+                            <span><i class="fa fa-bars"></i></span>
+                            <h3>Event Guidelines</h3>
+                              <!-- <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p> -->
+                        </div><!-- end b-feature-block -->
+                   </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end best-features -->
+        
+        
+        <!--========================= ADVERT-1 ==========================-->
+        <section id="newsletter-1" class="section-padding back-size newsletter"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <h2>QUALITY IS GUARANTEED</h2>
+                          
+                        
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end newsletter-1 -->
+        
+        
+        
+        <!--======================= FOOTER =======================-->
+        <section id="footer" class="ftr-heading-o ftr-heading-mgn-1">
+        
+            <div id="footer-top" class="banner-padding ftr-top-grey ftr-text-white">
+                <div class="container">
+                    <div class="row">
+                                
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3 footer-widget ftr-contact">
+                            <h3 class="footer-heading">CONTACT US</h3>
+                            <ul class="list-unstyled">
+                                <li><span><i class="fa fa-map-marker"></i></span>29 Land St, Lorem City, SA</li>
+                                <li><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                                <li><span><i class="fa fa-envelope"></i></span>info@rannans.com</li>
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-12 col-md-6 col-lg-2 col-xl-2 footer-widget ftr-links">
+                            <h3 class="footer-heading">COMPANY</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about">About</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="registration.html">Sign Up</a></li>
+                                
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3 footer-widget ftr-links ftr-pad-left">
+                            <h3 class="footer-heading">RESOURCES</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="offers.html">Offers</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                
+                            </ul>
+                        </div><!-- end columns -->
+        
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-4 footer-widget ftr-about">
+                            <h3 class="footer-heading">ABOUT US</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                            <ul class="social-links list-inline list-unstyled">
+                                <li class="list-inline-item"><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span><i class="fa fa-instagram"></i></span></a></li>
+                               
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-top -->
+        
+            <div id="footer-bottom" class="ftr-bot-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="copyright">
+                            <p>© 2022 <a href="#">Rannans</a>. All rights reserved.</p>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="terms">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><a href="#">Terms & Condition</a></li>
+                                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-bottom -->
+            
+        </section><!-- end footer -->
+        
+        
+        <div id="popup-ad" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+        
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="popup-ad-text">
+                                    <h4>Get</h4>
+                                    <h2><span>20%</span> off</h2>
+                                    <h4>on all adverts booking</h4>
+                                    <p>Let the world see you through Rannans.</p>
+                                    <a href="#" class="btn btn-orange">Book Now</a>
+                                </div><!-- end popup-ad-text -->
+                            </div><!-- end columns -->
+                            
+                            <div class="col-12 col-md-6">
+                                <div class="popup-ad-img">
+                                    <img src="images/logo.png" class="img-fluid" /> 
+                                </div><!-- end popup-ad-img -->
+                            </div><!-- end columns -->
+                        </div><!-- end row -->
+                        
+                    </div><!-- end modal-bpdy -->
+                </div><!-- end modal-content -->
+            </div><!-- end modal-dialog -->
+        </div><!-- end popup-ad -->
+    </div>
+                        
+                        
+    <!-- Page Scripts Starts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/bootstrap-4.4.1.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom-navigation.js"></script>
+    <script src="js/custom-flex.js"></script>
+    <script src="js/custom-owl.js"></script>
+    <script src="js/custom-date-picker.js"></script>
+    <script src="js/custom-video.js"></script>
+    <script src="js/popup-ad.js"></script>
+    <!-- Page Scripts Ends -->
+    
+</body>
+
+
+</html>
